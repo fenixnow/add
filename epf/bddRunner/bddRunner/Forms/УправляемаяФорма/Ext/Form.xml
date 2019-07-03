@@ -4604,7 +4604,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Работа с UI</v8:content>
+									<v8:content>Работа с интерфейсом</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -4683,27 +4683,15 @@
 									<v8:content>İş ile UI</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа дополнительно</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="1308"/>
 							<ChildItems>
 								<CommandBar name="РаботасUI" id="333">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Работас UI</v8:content>
+											<v8:content>Работа с интерфейсом</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Работас UI</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="РаботасUIРасширеннаяПодсказка" id="1309"/>
 									<ChildItems>
 										<Button name="ОткрытьПодключитьTestClient" id="298">
@@ -7656,7 +7644,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Vertical</Group>
-													<Representation>StrongSeparation</Representation>
+													<Representation>NormalSeparation</Representation>
 													<ExtendedTooltip name="РаботаСТэгамиРасширеннаяПодсказка" id="1362"/>
 													<ChildItems>
 														<InputField name="СписокТеговИсключение1" id="221">
@@ -7931,7 +7919,7 @@
 													</ToolTip>
 													<HorizontalStretch>true</HorizontalStretch>
 													<Group>Vertical</Group>
-													<Representation>StrongSeparation</Representation>
+													<Representation>NormalSeparation</Representation>
 													<ExtendedTooltip name="ГруппаОтладкаTestClientРасширеннаяПодсказка" id="1365"/>
 													<ChildItems>
 														<CheckBoxField name="ЗапускатьТестКлиентВРежимеОтладки" id="867">
@@ -7977,6 +7965,7 @@
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="Группа5" id="1806">
+													<Group>Vertical</Group>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="1807"/>
@@ -7989,6 +7978,7 @@
 																	<v8:content>Язык генератора Gherkin</v8:content>
 																</v8:item>
 															</Title>
+															<HorizontalStretch>false</HorizontalStretch>
 															<ListChoiceMode>true</ListChoiceMode>
 															<ChoiceList>
 																<xr:Item>
@@ -8324,7 +8314,7 @@
 																	<ExtendedTooltip name="СохранятьКонтекстыПередВыполнениемШаговРасширеннаяПодсказка" id="1373"/>
 																</CheckBoxField>
 																<CheckBoxField name="ВыполнятьШагиАссинхронно" id="335">
-																	<DataPath>Объект.ВыполнятьШагиАссинхронно</DataPath>
+																	<DataPath>Объект.ВыполнятьШагиАсинхронно</DataPath>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -8826,25 +8816,24 @@
 												</UsualGroup>
 												<InputField name="ТаймаутЗапуска1С" id="1672">
 													<DataPath>Объект.ТаймаутЗапуска1С</DataPath>
-													<AutoMaxWidth>false</AutoMaxWidth>
+													<Width>5</Width>
 													<ContextMenu name="ТаймаутЗапуска1СКонтекстноеМеню" id="1673"/>
 													<ExtendedTooltip name="ТаймаутЗапуска1СРасширеннаяПодсказка" id="1674"/>
 												</InputField>
 												<InputField name="ТаймаутДляАсинхронныхШагов" id="1784">
 													<DataPath>Объект.ТаймаутДляАсинхронныхШагов</DataPath>
-													<AutoMaxWidth>false</AutoMaxWidth>
+													<Width>5</Width>
 													<ContextMenu name="ТаймаутДляАсинхронныхШаговКонтекстноеМеню" id="1785"/>
 													<ExtendedTooltip name="ТаймаутДляАсинхронныхШаговРасширеннаяПодсказка" id="1786"/>
 												</InputField>
 												<InputField name="КоличествоСекундПоискаОкна" id="1770">
 													<DataPath>Объект.КоличествоСекундПоискаОкна</DataPath>
-													<AutoMaxWidth>false</AutoMaxWidth>
+													<Width>5</Width>
 													<ContextMenu name="КоличествоСекундПоискаОкнаКонтекстноеМеню" id="1771"/>
 													<ExtendedTooltip name="КоличествоСекундПоискаОкнаРасширеннаяПодсказка" id="1772"/>
 												</InputField>
 												<InputField name="ДиапазонПортовTestclient" id="1683">
 													<DataPath>Объект.ДиапазонПортовTestclient</DataPath>
-													<AutoMaxWidth>false</AutoMaxWidth>
 													<ContextMenu name="ДиапазонПортовTestclientКонтекстноеМеню" id="1684"/>
 													<ExtendedTooltip name="ДиапазонПортовTestclientРасширеннаяПодсказка" id="1685"/>
 												</InputField>
@@ -8932,7 +8921,6 @@
 															<v8:content>Katalog, araç</v8:content>
 														</v8:item>
 													</Title>
-													<AutoMaxWidth>false</AutoMaxWidth>
 													<ChoiceButton>true</ChoiceButton>
 													<ClearButton>true</ClearButton>
 													<ContextMenu name="КаталогИнструментовКонтекстноеМеню" id="381"/>
@@ -9118,7 +9106,6 @@
 															<v8:content>Dizin projesi</v8:content>
 														</v8:item>
 													</Title>
-													<AutoMaxWidth>false</AutoMaxWidth>
 													<ChoiceButton>true</ChoiceButton>
 													<ClearButton>true</ClearButton>
 													<ContextMenu name="КаталогПроектаКонтекстноеМеню" id="718"/>
@@ -9129,6 +9116,7 @@
 												</InputField>
 												<InputField name="ПоставщикUserSettings" id="1811">
 													<DataPath>Объект.ПоставщикПользовательскихНастроек</DataPath>
+													<HorizontalStretch>false</HorizontalStretch>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ChoiceList>
 														<xr:Item>
@@ -9250,7 +9238,9 @@
 															<v8:content>Aralık adım</v8:content>
 														</v8:item>
 													</Title>
+													<Width>4</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ИнтервалВыполненияШагаЗаданныйПользователемКонтекстноеМеню" id="524"/>
 													<ExtendedTooltip name="ИнтервалВыполненияШагаЗаданныйПользователемРасширеннаяПодсказка" id="1385"/>
 												</InputField>
@@ -9339,7 +9329,7 @@
 														</v8:item>
 													</Title>
 													<HorizontalAlign>Left</HorizontalAlign>
-													<AutoMaxWidth>false</AutoMaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ChoiceList>
 														<xr:Item>

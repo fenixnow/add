@@ -426,7 +426,6 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
-			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<ExtendedTooltip name="ГруппаЗаголовокИмяФормыРасширеннаяПодсказка" id="62"/>
@@ -434,21 +433,18 @@
 				<InputField name="АктивноеОкноЗаголовок" id="52">
 					<DataPath>ЗаголовокОкна</DataPath>
 					<ReadOnly>true</ReadOnly>
-					<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
 					<ContextMenu name="АктивноеОкноЗаголовокКонтекстноеМеню" id="53"/>
 					<ExtendedTooltip name="АктивноеОкноЗаголовокРасширеннаяПодсказка" id="54"/>
 				</InputField>
 				<InputField name="ЗаголовокФормы" id="55">
 					<DataPath>ЗаголовокТекущейФормы</DataPath>
 					<ReadOnly>true</ReadOnly>
-					<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
 					<ContextMenu name="ЗаголовокФормыКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ЗаголовокФормыРасширеннаяПодсказка" id="57"/>
 				</InputField>
 				<InputField name="ИмяТекущейФормы" id="58">
 					<DataPath>ИмяТекущейФормы</DataPath>
 					<ReadOnly>true</ReadOnly>
-					<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
 					<ContextMenu name="ИмяТекущейФормыКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="ИмяТекущейФормыРасширеннаяПодсказка" id="60"/>
 				</InputField>

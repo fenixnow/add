@@ -95,7 +95,6 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
-		<Event name="OnReopen">ПриПовторномОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -266,12 +265,6 @@
 							<v8:content>Тип шага</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип шага</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="ДеревоШаговГруппаТипШагаРасширеннаяПодсказка" id="73"/>
 					<ChildItems>
 						<InputField name="ДеревоШаговТипШага" id="14">
@@ -289,12 +282,6 @@
 									<v8:content>Описание шага</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Описание шага</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<ExtendedTooltip name="ДеревоШаговГруппаОписаниеШагаРасширеннаяПодсказка" id="75"/>
 							<ChildItems>
